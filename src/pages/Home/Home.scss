@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid{
+    background-image: linear-gradient(to right, #37A7E6, #3D54BA);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .card{
+        min-height: 50vh;
+        min-width: 80vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .user-name{
+            color: #000;
+            text-transform: uppercase;
+            font-size: 28px;
+            font-weight: bolder;
+            font-family: 'Calibri', 'sans-serif';
+        }
+        .next-call-btn{
+            background-color: #3D54BA;
+            color: #fff;
+            font-family: 'Calibri', 'sans-serif';
+            border: none;
+            padding: 8px 18px;
+        }
+    }
+}
